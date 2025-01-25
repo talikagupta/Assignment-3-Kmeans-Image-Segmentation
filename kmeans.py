@@ -1,6 +1,6 @@
 import numpy as np
 
-def kmeans(pixels: np.ndarray, initial_centroids: np.ndarray, max_iter: int = 300):
+def kmeans(pixels: np.ndarray, initial_centroids: np.ndarray):
     """
     Parameters:
         pixels (np.ndarray): The dataset to cluster, of shape (n_samples, 3).
