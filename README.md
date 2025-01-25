@@ -7,8 +7,6 @@ In this assignment, you will implement the K-Means algorithm for image segmentat
 ### Objective
 Implement the `kmeans` function in `kmeans.py` to perform image segmentation on an image. The function should output:
 1. The final centroids.
-2. An array indicating the centroid each pixel belongs to.
-Update the centroids iteratively until convergence, i.e., until the centroids no longer change.
 
 ### Input Format
 - A `numpy.ndarray` of shape `(num_pixels, 3)` where each row represents an RGB pixel.
